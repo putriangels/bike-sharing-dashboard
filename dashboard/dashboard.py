@@ -73,7 +73,7 @@ def create_rental_distribution(df):
     return rental_distribution
 
 # Load cleaned data
-main_data = pd.read_csv(r'\dashboard\main_data.csv')
+main_data = pd.read_csv(r'.\\dashboard\\main_data.csv')
 
 main_data.sort_values(by="dteday", inplace=True)
 main_data.reset_index(inplace=True)
